@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/shazforiot/nodeapp_test.git'
+        git url: 'https://github.com/sourabha-srai/devops-project.git', branch: 'main'
       }
     }
 
